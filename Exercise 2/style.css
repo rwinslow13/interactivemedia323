@@ -46,8 +46,8 @@ p{
 	padding: 40px;
 	background-color: #d3e68d;
 	border: 4px solid #a8cd1b;
-	margin-right: 100px;
-	margin-left: 100px;
+	margin-right:300px;
+	margin-left: 5px;
 	
 
 }
@@ -63,7 +63,6 @@ img{
 a{
 	color:#a8cd1b;
 	font-family: Didot;
-	
 }
 a:visited{
 	color:white;
