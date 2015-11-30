@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Coding from Life</title>
+	
+</head>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 600px;
+	margin: 100px auto;
+	background: #f5fffa;
+	position: relative;
+}
+
+/*below is the coding for all the wine bottle elements*/
+
+
+
+.wine-container{
+	width:400px;
+	height:500px;
+	bottom: 10px;
+	left:200px;
+}
+.object{
+	position:absolute;
+}
+.winebottle{
+	background-color:  #580606;
+}
+.bottom{
+	width: 200px;
+	height: 100px;
+	background:#580606;
+	border-radius: 100px / 50px;
+	top:400px;
+
+}
+
+.base{
+	width: 200px;
+	height: 380px;
+	top:70px;
+	background-color:  #580606;
+	border-radius:90px 90px 0 0;
+
+}
+
+.neck{
+	width:70px;
+	height:50px;
+	left:65px;
+	top:30px;
+	background-color:  #580606;
+
+}
+.neckfoil{
+	width:70px;
+	height:70px;
+	left:65px;
+	background: linear-gradient(135deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 27%, rgba(204,169,79,1) 52%, rgba(251,223,147,1) 100%);
+	top:-30px;
+}
+.topfoil{
+	width:80px;
+	height:15px;
+	left:60px;
+	background: linear-gradient(135deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 27%, rgba(204,169,79,1) 52%, rgba(251,223,147,1) 100%);
+	border:1px solid black;
+	top:-35px;
+
+}
+.lidfoil{
+	width:70px;
+	height:10px;
+	left:65px;
+	background: linear-gradient(135deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 27%, rgba(204,169,79,1) 52%, rgba(251,223,147,1) 100%);
+	border:1px solid black;
+	top:-45px;
+
+}
+.label{
+	width:150px;
+	height: 200px;
+	background-color: #fdf7ef;
+	top:195px;
+	left:25px;
+	border: solid black 5px;
+
+
+}
+
+/*below is all the coding for the champagne glass elements*/
+
+.glass-container{
+	width:400px;
+	height:500px;
+	bottom: 30px;
+	left:200px;
+
+}
+.object{
+	position: absolute;
+
+}
+.stem{
+	width:25spx;
+	height:250px;
+	top:200px;
+	left:150px;
+	background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 32%, rgba(209,209,209,1) 54%, rgba(254,254,254,1) 100%);
+
+}
+.bowl{
+	width:80px;
+	height: 230px;
+	background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 32%, rgba(209,209,209,1) 54%, rgba(254,254,254,1) 100%);
+	border-radius: 0 0 90px 90px;
+	left: 120px;
+}
+.foot{
+	
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+    <div class="canvas white">
+    	<div class="drawing">
+    		<div class="object wine-container">
+    			<div class="object wine bottle ">
+    				<div class="object winebottle bottom"></div>
+    				<div class="object winebottle base"></div>
+    				<div class="object winebottle neck"></div>
+    				<div class="object winebottle neckfoil"></div>
+    				<div class="object winebottle topfoil"></div>
+    				<div class="object winebottle lidfoil"></div>
+				</div>
+				<div class="object label">
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br><br>
+
+	<div class="canvas blue">
+		<div class="drawing">
+			<div class="object glass-container">
+				<div class="object champagne glass">
+					<div class="object champagne glass stem"></div>
+					<div class="object champagne glass bowl"></div>
+					<div class="object champagne glass foot"></div>
+				</div>
+				<div class="object champagne liquid">
+					<div class="object champagne liquid full"></div>
+					<div class="object champagne liquid bubbles"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+					
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
