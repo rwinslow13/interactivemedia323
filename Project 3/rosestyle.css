@@ -1,0 +1,23 @@
+*{
+	background-color:black;
+}
+
+.rose{
+	font-family: Avenir Next;
+	font-size: 15pt;
+	display: inline-block;
+	position: relative;
+	float: right;
+	text-align: right;
+	width:275pt;
+	height: 100%;
+	margin-top: 45%;
+	margin-right: 20pt;
+	color: #feff80;
+	margin-bottom: 20pt; 
+
+}
+a{
+	color:white;
+	text-decoration: none;
+}
